@@ -1,0 +1,7 @@
+##Condition_Start####(region_code='1' OR region_code='2')##
+##Condition_End##	
+
+##Field_couponcode_text##
+
+
+Здравствуйте##Condition_Start####(firstname='')##!##Condition_End####Condition_Start####(firstname<>'')##, ##Field_firstname####Condition_End##
