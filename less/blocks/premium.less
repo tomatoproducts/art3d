@@ -26,7 +26,7 @@
   bottom: 15px;
   width: 8px;
   height: 2px;
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
   background-color: #ffffff;
 }
 .premium__btn::after {
@@ -36,11 +36,12 @@
   bottom: 15px;
   width: 8px;
   height: 2px;
-  transform: rotate(45deg);
+  transform: rotate(-45deg);
   background-color: #ffffff;
 }
 
 .premium__wrapper {
+  display: none;
   position: absolute;
   left: 50%;
   transform: translateX(-127px);
@@ -51,8 +52,8 @@
   box-sizing: border-box;
 }
 
-.premium__wrapper--close {
-  display: none;
+.premium__wrapper--open {
+  display: block;
 }
 
 .premium__text {
