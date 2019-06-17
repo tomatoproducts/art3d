@@ -1,0 +1,29 @@
+.social {
+  display: flex;
+}
+
+
+.social__item {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #8d8d8d;
+  background-image: url('../img/fb.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0;
+
+  &--vk {
+    margin: 0 10px;
+    background-image: url('../img/vk.png');
+  }
+
+  &--inst {
+    background-image: url('../img/insta.png');
+  }
+}
+.social__item:hover {
+  background-color: #3289da;
+  transition-duration: 400ms;
+}

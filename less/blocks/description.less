@@ -1,0 +1,40 @@
+.description {
+  display: flex;
+  width: 512px;
+  justify-content: space-between;
+}
+
+.description__link {
+  display: block;
+  width: 161px;
+  height: 115px;
+  padding-top: 74px;
+  background-image: url('../img/photogallery.jpg');
+  background-repeat: no-repeat;
+  border: 1px solid #747474;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+
+  &--progress {
+    background-image: url('../img/video.jpg');
+  }
+  &--progress {
+    background-image: url('../img/progress.jpg');
+  }
+}
+
+.description__link:hover {
+  filter: brightness(0.4);
+  transition-duration: 400ms;
+
+}
+
+.description__title {
+  display: block;
+  padding: 11px;
+  background-color: #0e0e06;
+  font-size: 13px;
+  line-height: 17px;
+  color: #ffffff;
+}
